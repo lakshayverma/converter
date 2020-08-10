@@ -115,7 +115,7 @@ title = {Die Grundlage der allgemeinen Relativitätstheorie},
 volume = {49}
 }'),
                 new CSL(),
-                '[{"type":"article","author":[{"family":"Einstein","given":"Albert"}],"issued":{"date-parts":[["1916"]]},"page":"769-822","page-first":"769","citation-label":"article","title":"Die Grundlage der allgemeinen Relativit\u00e4tstheorie"}]'
+                '[{"type":"article","author":[{"family":"Einstein","given":"Albert"}],"issued":{"date-parts":[["1916"]]},"page":"769-822","page-first":"769","citation-label":"article","title":"Die Grundlage der allgemeinen Relativit\u00e4tstheorie","volume":"49"}]'
             )
         );
     }
