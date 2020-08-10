@@ -4,7 +4,6 @@
     "keywords":["csl", "bibtex", "endnote", "ris", "bibliography"],
     "type":"library",
     "license":"MIT",
-    "version": "1.0.5-dev",
     "homepage": "https://github.com/lakshayverma/converter",
     "authors":[
         {
