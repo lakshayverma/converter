@@ -4,7 +4,7 @@
     "keywords":["csl", "bibtex", "endnote", "ris", "bibliography"],
     "type":"library",
     "license":"MIT",
-    "homepage": "https://github.com/geissler/converter",
+    "homepage": "https://github.com/lakshayverma/converter",
     "authors":[
         {
             "name":"Benjamin Geißler",
@@ -14,6 +14,10 @@
         {
             "name":"Keith Houston",
             "email":"keith.houston@gmail.com"
+        },
+        {
+            "name": "Lakshay Verma",
+            "email": "verma_lakshay@live.in"
         }
     ],
     "require":{
