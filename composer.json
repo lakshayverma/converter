@@ -1,5 +1,5 @@
 {
-    "name":"geissler/converter",
+    "name":"lakshay/converter",
     "description":"A small library to convert different bibliography formats into each other",
     "keywords":["csl", "bibtex", "endnote", "ris", "bibliography"],
     "type":"library",
@@ -18,14 +18,14 @@
     ],
     "require":{
         "php":">=5.4.0",
-        "technosophos/LibRIS": ">=2.0.2"
+        "technosophos/libris": ">=2.0.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     },
     "autoload":{
         "psr-4":{
-            "Geissler\\": "src/Geissler/"
+            "Lakshay\\": "src/Lakshay/"
         },
         "files": [
             "library/format/bibtexParse/PARSEENTRIES.php",

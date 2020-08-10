@@ -10,7 +10,7 @@ At the moment are supported [BibTeX](http://en.wikipedia.org/wiki/BibTeX "BibTeX
 Add to the `composer.json` the `require` key and run composer install.
 ```
     "require" : {
-        "geissler/converter": "dev-master"
+        "lakshay/converter": "dev-master"
     }
 ```
 ### Other
@@ -24,10 +24,10 @@ To convert form one standard to an other:
     // include the composer autoloader
     require __DIR__ . '/vendor/autoload.php';
 
-    use Geissler\Converter\Converter;
-    use Geissler\Converter\Standard\RIS\RIS;
-    use Geissler\Converter\Standard\BibTeX\BibTeX;
-    use Geissler\Converter\Standard\CSL\CSL;
+    use Lakshay\Converter\Converter;
+    use Lakshay\Converter\Standard\RIS\RIS;
+    use Lakshay\Converter\Standard\BibTeX\BibTeX;
+    use Lakshay\Converter\Standard\CSL\CSL;
 
     $converter  =   new Converter();
 
@@ -93,7 +93,7 @@ The built-in BibTeX converter has the following limitations:
 ## Adding a standard
 To implement a new standard is quite simple:
 
-1. Create a copy of the folder **src/Geissler/Converter/Standard/Template**
+1. Create a copy of the folder **src/Lakshay/Converter/Standard/Template**
 2. Change the name to the new standard.
 3. Rename also the **Template.php** file to the name of the standard
 4. Replace every occurence of **Template** in the files **Creator.php**, **Parser.php** and **Template.php** with the
