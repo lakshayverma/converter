@@ -127,7 +127,7 @@ class Creator implements CreatorInterface
                     'status'                      => 'getStatus',
                     'title'                       => 'getTitle',
                     'title-short'                 => 'getTitleShort',
-                    'URL'                         => 'getURL',
+                    'url'                         => 'getURL',
                     'version'                     => 'getVersion',
                     'yearSuffix'                  => 'getYearSuffix'
                 );

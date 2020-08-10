@@ -74,7 +74,7 @@ class ConverterTest extends \PHPUnit\Framework\TestCase
           "volume" : "24",
           "page" : "121-160",
           "type": "article-journal",
-          "URL": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/the-monumental-centre-of-herculaneum-in-search-of-the-identities-of-the-public-buildings/BAFFDCBFB5E997CD53C746B4370BE1A7"
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/the-monumental-centre-of-herculaneum-in-search-of-the-identities-of-the-public-buildings/BAFFDCBFB5E997CD53C746B4370BE1A7"
       }]'
                 ),
                 new BibTeX(),

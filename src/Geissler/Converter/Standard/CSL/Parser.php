@@ -131,7 +131,7 @@ class Parser implements ParserInterface
                 'status'                      => 'setStatus',
                 'title'                       => 'setTitle',
                 'title-short'                 => 'setTitleShort',
-                'URL'                         => 'setURL',
+                'url'                         => 'setURL',
                 'version'                     => 'setVersion',
                 'yearSuffix'                  => 'setYearSuffix'
             );
