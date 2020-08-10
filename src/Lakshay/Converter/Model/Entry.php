@@ -9,7 +9,7 @@ use Lakshay\Converter\Model\Pages;
 /**
  * The basic mapping class is following mainly the fields available in the CSL standard.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  * @see http://citationstyles.org/downloads/specification.html
  */

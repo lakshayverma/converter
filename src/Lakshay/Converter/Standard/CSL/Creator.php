@@ -9,7 +9,7 @@ use Lakshay\Converter\Model\Dates;
 /**
  * Create csl input data.
  *
- * @author  Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author  Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Creator implements CreatorInterface

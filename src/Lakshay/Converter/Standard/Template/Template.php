@@ -8,7 +8,7 @@ use Lakshay\Converter\Standard\Template\Creator;
 /**
  * TODO: Template comment.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Template extends StandardAbstract

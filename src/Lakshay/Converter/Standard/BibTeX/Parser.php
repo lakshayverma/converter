@@ -10,7 +10,7 @@ use Lakshay\Converter\Model\Date;
 /**
  * Transfer one or multiple BibTex entries in objects of class Lakshay\Converter\Model\Entry.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Parser implements ParserInterface

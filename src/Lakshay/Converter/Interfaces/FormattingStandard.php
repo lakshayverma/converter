@@ -7,7 +7,7 @@ use Lakshay\Converter\Model\Entries;
  * Methods which must be implemented to transfer a standard via an \Lakshay\Converter\Model\Entries object into
  * an other format.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 interface FormattingStandard

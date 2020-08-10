@@ -6,7 +6,7 @@ use Lakshay\Converter\Model\Entry;
 /**
  * Abstract container to access groups of objects as "array"-object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 abstract class Container implements \IteratorAggregate, \ArrayAccess, \Countable

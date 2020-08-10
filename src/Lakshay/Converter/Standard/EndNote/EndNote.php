@@ -9,7 +9,7 @@ use Lakshay\Converter\Standard\EndNote\Creator;
 /**
  * TODO: Template comment.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class EndNote extends StandardAbstract

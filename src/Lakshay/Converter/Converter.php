@@ -7,7 +7,7 @@ use Lakshay\Converter\Interfaces\FormattingStandard;
  * The main converter class. Just inject an object of each standard and retrieve the converted value. You MUST inject
  * your input data into the constructor of the source (= $from) object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Converter

@@ -10,7 +10,7 @@ use Lakshay\Converter\Model\Date;
 /**
  * CSL Parser.
  *
- * @author  Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author  Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Parser implements ParserInterface

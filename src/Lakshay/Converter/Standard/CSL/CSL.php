@@ -8,7 +8,7 @@ use Lakshay\Converter\Standard\CSL\Creator;
 /**
  * CSL (Citation style language)
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  * @link http://citationstyles.org/
  */

@@ -6,7 +6,7 @@ use Lakshay\Converter\Model\Entries;
 /**
  * Transfer entries of a standard into a \Lakshay\Converter\Model\Entries object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 interface ParserInterface

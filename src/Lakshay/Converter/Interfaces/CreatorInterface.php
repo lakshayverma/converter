@@ -6,7 +6,7 @@ use Lakshay\Converter\Model\Entries;
 /**
  * Create a valid standard entry based on a given \Lakshay\Converter\Model\Entries object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 interface CreatorInterface

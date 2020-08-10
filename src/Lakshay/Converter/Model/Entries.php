@@ -7,7 +7,7 @@ use Lakshay\Converter\Model\Entry;
 /**
  * Group of literature entries as "array"-object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Entries extends Container

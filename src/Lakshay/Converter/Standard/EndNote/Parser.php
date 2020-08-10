@@ -11,7 +11,7 @@ use Lakshay\Converter\Model\Date;
 /**
  * TODO: Parser comment.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Parser implements ParserInterface

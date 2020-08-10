@@ -4,7 +4,7 @@ namespace Lakshay\Converter\Model;
 /**
  * Mapping the different names for different types of entries to a common name.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Type

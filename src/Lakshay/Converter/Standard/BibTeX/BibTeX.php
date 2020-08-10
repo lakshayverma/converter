@@ -8,7 +8,7 @@ use Lakshay\Converter\Standard\BibTeX\Creator;
 /**
  * BibTeX.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  * @see http://en.wikipedia.org/wiki/BibTeX
  */

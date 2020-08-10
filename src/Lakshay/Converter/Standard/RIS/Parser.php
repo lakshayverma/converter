@@ -11,7 +11,7 @@ use LibRIS\RISReader;
 /**
  * Parse a RIS record format.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Parser implements ParserInterface

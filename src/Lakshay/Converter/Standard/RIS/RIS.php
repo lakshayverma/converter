@@ -8,7 +8,7 @@ use Lakshay\Converter\Standard\RIS\Creator;
 /**
  * RIS (Research Information System).
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  * @see http://en.wikipedia.org/wiki/RIS_(file_format)
  */

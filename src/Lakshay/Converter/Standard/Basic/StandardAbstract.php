@@ -10,7 +10,7 @@ use Lakshay\Converter\Model\Entries;
  * A basic class which each standard must extend by injecting a parser and creator object via the setter methods in
  * it's constructor.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 abstract class StandardAbstract implements FormattingStandard

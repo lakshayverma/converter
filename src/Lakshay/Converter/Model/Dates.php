@@ -7,7 +7,7 @@ use Lakshay\Converter\Model\Date;
 /**
  * Group of dates (Lakshay\Converter\Model\Date).
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Dates extends Container

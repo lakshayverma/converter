@@ -12,7 +12,7 @@ use Lakshay\Converter\Model\Person;
 /**
  * TODO: Creator comment.
  *
- * @author  Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author  Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Creator implements CreatorInterface

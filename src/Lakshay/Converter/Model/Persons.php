@@ -7,7 +7,7 @@ use Lakshay\Converter\Model\Person;
 /**
  * Group of Person objects as "array" object.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Persons extends Container

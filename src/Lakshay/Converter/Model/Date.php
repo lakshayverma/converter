@@ -4,7 +4,7 @@ namespace Lakshay\Converter\Model;
 /**
  * A date entry.
  *
- * @author Benjamin Geißler <benjamin.lakshay@gmail.com>
+ * @author Benjamin Geißler <benjamin.geissler@gmail.com>
  * @license MIT
  */
 class Date
