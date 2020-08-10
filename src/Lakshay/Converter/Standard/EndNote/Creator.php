@@ -49,6 +49,7 @@ class Creator implements CreatorInterface
 
             $fields = array(
                 '%Z'    => 'getAbstract',
+                '%X'    => 'getAbstract',
                 '%J1'    => 'getCollectionTitle',
                 '%J2'    => 'getContainerTitle',
                 '%J3'    => 'getContainerTitleShort',
