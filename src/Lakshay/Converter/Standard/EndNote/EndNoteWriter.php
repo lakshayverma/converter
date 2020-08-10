@@ -61,7 +61,11 @@ class EndNoteWriter
 
         foreach ($tags as $tag => $values) {
             foreach ($values as $value) {
-                $buffer[] = sprintf($fmt, $tag, $value);
+                if (is_array($value)) {
+                    $buffer[] = sprintf($fmt, $tag, implode(' ', $value));
+                } else {
+                    $buffer[] = sprintf($fmt, $tag, $value);
+                }
             }
         }
 
