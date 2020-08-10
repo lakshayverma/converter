@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Much-simplified version of OSBiB's BIBFORMAT class. All functionality removed except from 
- * convertEntry() (renamed to convertBibtexToUtf8()), which replaces converts BibTeX 
- * strings, which are usually ISO-8859-1, to UTF-8. Where possible, LaTeX escape sequences 
+ * Much-simplified version of OSBiB's BIBFORMAT class. All functionality removed except from
+ * convertEntry() (renamed to convertBibtexToUtf8()), which replaces converts BibTeX
+ * strings, which are usually ISO-8859-1, to UTF-8. Where possible, LaTeX escape sequences
  * are replaced with native UTF-8 characters.
  */
 class BIBFORMAT
@@ -36,7 +36,7 @@ class BIBFORMAT
 	}
 
 /*
- * convertBibtexToUtf8 - convert BibTeX strings, which are usually ISO-8859-1, to UTF-8. Where 
+ * convertBibtexToUtf8 - convert BibTeX strings, which are usually ISO-8859-1, to UTF-8. Where
  * possible, LaTeX escape sequences are replaced with native UTF-8 characters.
  *
  * @author Mark Grimshaw, modified by Christophe Ambroise 26/10/2003 and by Keith Houston on
@@ -392,4 +392,3 @@ class BIBTEXCONFIG
 				   );
   }
 }
-?>
