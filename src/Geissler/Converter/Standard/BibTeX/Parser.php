@@ -104,7 +104,7 @@ class Parser implements ParserInterface
     {
         $this->entries  =   new Entries();
         $bibFormat = new \BIBFORMAT();
-        
+
         $length = count($data);
         for ($i = 0; $i < $length; $i++) {
             $entry = new Entry();
@@ -166,6 +166,12 @@ class Parser implements ParserInterface
                     break;
                 case 'unpublished':
                     $entry->getType()->setManuscript();
+                    break;
+                case 'patent':
+                case 'patents':
+                case 'Patents':
+                case 'Patent':
+                    $entry->getType()->setPatent();
                     break;
                 default:
                     $entry->getType()->setUnknown();
@@ -258,6 +264,10 @@ class Parser implements ParserInterface
                 'keywords'          =>  'setKeyword',
                 'LCCN'              =>  'setCallNumber',
                 'url'               =>  'setURL',
+                'pdf'               =>  'setPdf',
+                'yearfiled'         =>  'setYearFiled',
+                'doi'               =>  'setDOI',
+                'issn'              =>  'setISSN',
             );
 
             foreach ($mapper as $key => $method) {

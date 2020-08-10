@@ -131,6 +131,8 @@ class Entry
     private $version;
     /** @var string */
     private $yearSuffix;
+    /** @var string */
+    private $yearFiled;
     /** @var string|integer */
     private $chapterNumber;
     /** @var string */
@@ -568,7 +570,7 @@ class Entry
      */
     public function setCitationLabel($citationLabel)
     {
-        $this->citationLabel = $citationLabel;
+        $this->citationLabel = trim($citationLabel);
 
         return $this;
     }
@@ -1725,5 +1727,27 @@ class Entry
     public function getYearSuffix()
     {
         return $this->yearSuffix;
+    }
+
+    /**
+     * The year of the patent request.
+     *
+     * @param $yearFiled
+     * @return Entry
+     */
+    public function setYearFiled($yearFiled)
+    {
+        $this->yearFiled = $yearFiled;
+        return $this;
+    }
+
+    /**
+     * The year of the patent request.
+     *
+     * @return string
+     */
+    public function getYearFiled()
+    {
+        return $this->yearFiled;
     }
 }
