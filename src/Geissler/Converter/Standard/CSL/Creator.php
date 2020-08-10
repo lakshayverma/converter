@@ -129,7 +129,8 @@ class Creator implements CreatorInterface
                     'title-short'                 => 'getTitleShort',
                     'url'                         => 'getURL',
                     'version'                     => 'getVersion',
-                    'yearSuffix'                  => 'getYearSuffix'
+                    'yearSuffix'                  => 'getYearSuffix',
+                    'volume'                      => 'getVolume',
                 );
 
                 foreach ($fields as $field => $getter) {

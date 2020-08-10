@@ -133,7 +133,8 @@ class Parser implements ParserInterface
                 'title-short'                 => 'setTitleShort',
                 'url'                         => 'setURL',
                 'version'                     => 'setVersion',
-                'yearSuffix'                  => 'setYearSuffix'
+                'yearSuffix'                  => 'setYearSuffix',
+                'volume'                      => 'getVolume',
             );
 
             foreach ($json as $record) {
