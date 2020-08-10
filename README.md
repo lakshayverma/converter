@@ -1,6 +1,4 @@
 ## Converter
-[![Build Status](https://travis-ci.org/ShadyChars/converter.png?branch=master)](https://travis-ci.org/ShadyChars/converter)
-
 A small library to convert the input data for different literature standards like BibTeX, CSL etc. into each other.
 At the moment are supported [BibTeX](http://en.wikipedia.org/wiki/BibTeX "BibTeX"),
 [CSL](http://citationstyles.org/ "CSL") and [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\) "RIS").
